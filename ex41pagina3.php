@@ -1,3 +1,6 @@
+<?php
+    session_start();
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +11,6 @@
 <body>
     <h1>ENDEVINA EL NOMBRE</h1>
     <?php
-    session_start();
     function getForm(){
         echo "<form method='POST'>";
             echo "<input type='number' name='endevina'>";

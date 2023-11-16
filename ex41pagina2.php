@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +11,6 @@
 <body>
     <h1>NOMBRE ENREGISTRAT</h1>
     <?php
-        session_start();
         $_SESSION['ocult']=$_POST['ocult'];
     ?>
     <a href="ex41pagina3.php">ENDEVINAR</a>
